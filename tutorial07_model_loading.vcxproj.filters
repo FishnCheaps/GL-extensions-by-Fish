@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Repositories\glt\ogl-master\tutorial07_model_loading\tutorial07.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Repositories\glt\ogl-master\common\shader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Repositories\glt\ogl-master\common\controls.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Repositories\glt\ogl-master\common\texture.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Repositories\glt\ogl-master\common\objloader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Repositories\glt\ogl-master\common\shader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\glt\ogl-master\common\controls.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\glt\ogl-master\common\texture.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\glt\ogl-master\common\objloader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Repositories\glt\ogl-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Repositories\glt\ogl-master\tutorial07_model_loading\TransformVertexShader.vertexshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="D:\Repositories\glt\ogl-master\tutorial07_model_loading\TextureFragmentShader.fragmentshader">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D50F117F-8458-37A9-AA1E-5B6D9D079A8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{57452251-4300-3F5E-AF69-706F0E60F58B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{98136817-0977-3A08-B2BF-36E69AD956DA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
